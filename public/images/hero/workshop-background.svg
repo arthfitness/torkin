@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a2140"/>
+      <stop offset="55%" stop-color="#0e132a"/>
+      <stop offset="100%" stop-color="#05070f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="70%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#ff5f13" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ff5f13" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#grid)"/>
+  <rect width="1200" height="900" fill="url(#glow)"/>
+  <g opacity="0.5" stroke="#ff5f13" stroke-width="2" fill="none">
+    <circle cx="820" cy="260" r="90"/>
+    <circle cx="820" cy="260" r="34"/>
+    <circle cx="980" cy="480" r="60"/>
+    <circle cx="980" cy="480" r="20"/>
+  </g>
+  <g fill="#ff5f13" opacity="0.7">
+    <circle cx="700" cy="120" r="2.5"/>
+    <circle cx="760" cy="90" r="1.8"/>
+    <circle cx="900" cy="150" r="2"/>
+    <circle cx="1020" cy="220" r="1.6"/>
+    <circle cx="860" cy="340" r="2.2"/>
+    <circle cx="1080" cy="380" r="1.8"/>
+    <circle cx="740" cy="420" r="1.6"/>
+  </g>
+  <text x="600" y="880" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#9fa6bd" letter-spacing="2">PLACEHOLDER — REPLACE WITH REAL WORKSHOP / PRODUCT PHOTO IN /public/images/hero</text>
+</svg>
