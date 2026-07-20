@@ -1,4 +1,4 @@
-# Torkin Couplings — Website 
+# Torkin Couplings — Website
 
 A Next.js (App Router) + TypeScript + Tailwind CSS rebuild of the Torkin
 industrial coupling manufacturer site: same page structure, real design

@@ -6,7 +6,7 @@ interface ProductFrameProps {
 }
 
 const sizeStyles: Record<NonNullable<ProductFrameProps["size"]>, string> = {
-  sm: "aspect-[4/3] p-7 sm:p-8",
+  sm: "aspect-[4/3] p-7 pb-9 sm:p-8 sm:pb-10",
   md: "aspect-[4/3] p-8 sm:p-10",
   lg: "aspect-[5/4] p-10 sm:p-14",
 };
